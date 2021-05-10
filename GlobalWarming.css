@@ -1,0 +1,71 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+}
+
+.Global{/*중요!!! : 이미지 배경 사용*/
+    background-image:url("GBpicture.jpg");
+    
+    height:1000px;
+    background-size : 100% 100%; /*중요!!*/
+}
+
+.header {
+    width:1400px;
+    margin:auto;
+    display:flex;
+    height:80px; /*헤더 부분 높이를 지정하는 것*/
+}
+.khan {
+    font-weight: bold;
+    display:flex;
+    width : 920px;
+    font-size:x-large;
+    line-height: 80px;
+}
+.khan > li {
+    margin-left: 120px;
+}
+.khan >li > a {
+    color:black;
+}
+.searchArea {
+    width:300px;
+    height:50px;
+    line-height: 80px;
+    border-radius: 10px;
+}
+.searchArea > form > input {
+    background: rgba(100, 0, 0, 0);
+    width:150px;
+}
+
+.apply {
+    font-size:10px;
+    margin:20px;
+}
+
+
+.title {
+    margin:30px;  /*글에서의 마진 가능!*/
+    color:#272020;
+    text-align:center;
+}
+.content {
+    display: flex; /*중요 div를 한줄로 표현 가능*/
+    
+}
+.content > li {
+    text-align: center;
+    flex: 0.5;
+    margin-left:70px;
+    margin-right:70px;
+    height:300px;
+    margin-top:15px;
+    border:3px solid gray;
+    background:rgb(138, 134, 134);
+}
